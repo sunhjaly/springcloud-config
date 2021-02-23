@@ -2,5 +2,5 @@
 config:
  info: master config-dev.yml
 spring:
-  datasource:
-    password: shjwldev 
+  application:
+    name: config-dev
