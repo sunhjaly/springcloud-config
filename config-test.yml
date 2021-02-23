@@ -2,3 +2,6 @@
 
 config:
  info: master config-test.yml
+spring:
+  datasource:
+    password: shjwltest
