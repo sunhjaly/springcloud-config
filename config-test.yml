@@ -3,5 +3,5 @@
 config:
  info: master config-test.yml
 spring:
-  datasource:
-    password: shjwltest
+  application:
+    name: config-test
