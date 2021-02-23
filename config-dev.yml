@@ -3,4 +3,15 @@ config:
  info: master config-dev.yml
 spring:
   application:
-    name: config-dev
+    name: cloud-config-dev
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://10.19.83.122:3306/clouddb01?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: shjwl-dev
+   
+    
+ 
+    
+    
