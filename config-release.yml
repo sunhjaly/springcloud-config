@@ -1,1 +1,3 @@
-123
+
+config:
+ info: master config-release.yml
