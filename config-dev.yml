@@ -1,6 +1,6 @@
 
 config:
- info: master config-dev.yml version=1
+ info: master config-dev.yml version=2
 spring:
   application:
     name: cloud-config-dev
